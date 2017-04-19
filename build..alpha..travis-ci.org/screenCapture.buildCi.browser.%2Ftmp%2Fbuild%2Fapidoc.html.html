@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.paralleljs.paralleljs">
+            function <span class="apidocSignatureSpan"></span>paralleljs
+            <span class="apidocSignatureSpan">(data, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.paralleljs.Worker">
             function <span class="apidocSignatureSpan">paralleljs.</span>Worker
             <span class="apidocSignatureSpan">(url)</span>
@@ -131,6 +140,26 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.paralleljs" id="apidoc.module.paralleljs">module paralleljs</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.paralleljs.paralleljs" id="apidoc.element.paralleljs.paralleljs">
+        function <span class="apidocSignatureSpan"></span>paralleljs
+        <span class="apidocSignatureSpan">(data, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Parallel(data, options) {
+		this.data = data;
+		this.options = extend(defaults, options);
+		this.operation = new Operation();
+		this.operation.resolve(null, this.data);
+		this.requiredScripts = [];
+		this.requiredFunctions = [];
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
